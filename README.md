@@ -40,6 +40,8 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * `Ctrl + Shift + P` VS Code ayarlarında arama yapmanızı sağlar
 * `Ctrl + P` workspace içindeki dosya ve klasörleri aramanızı sağlar
 * `Ctrl + Shift + N` yeni bir VS Code penceresi açar
+* `Ctrl + Shift + "` dahili terminali açar
+* `Ctrl + Shift + C` harici terminali (windows cmd) açar
 * `Ctrl + Shift + E` workspace dosyalarını seçebilirsiniz
 * `Ctrl + B`  sidebar'ı kapatıp açabilirsiniz
 * `Ctrl + K V` kısayolu ile sağ kısımda yeni ön izleme açılabilir
