@@ -42,17 +42,6 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * `Ctrl + Shift + N` yeni bir VS Code penceresi açar
 * `Ctrl + Shift + E` workspace dosyalarını seçebilirsiniz
 * `Ctrl + B`  sidebar'ı kapatıp açabilirsiniz
-* `Ctrl + N` ile bulunduğunuz klasörde hızlıca dosya açmak için şu adımlar yapılmalı
-  1. VS Code ayarlarında (`Ctrl + Shift + P`) şu dosyayı aratıp açın <pre>Preferences: Open Keyboard Shortcuts (JSON)</pre>
-  2. Aşağıdaki kodu yapıştırıp dosyayı kaydedin <pre>[
-    { "key": "ctrl+n", "command": "explorer.newFile" }
-    ]</pre>
-* `Ctrl + Alt + N` ile workspace'de hızlıca klasör yaratmak için yukarıdaki adımı takip edin. 2. adımda süslü parantezden virgül koyup şu kodu ekleyin <pre>{ "key": "ctrl+alt+n", "command": "explorer.newFolder" }</pre>
-Her ikisini de eklediyseniz kod şöyle olmalı <pre>[
-  { "key": "ctrl+n", "command": "explorer.newFile" }, 
-{ "key": "ctrl+alt+n", "command": "explorer.newFolder" }
-]</pre>
-
 * `Ctrl + K V` kısayolu ile sağ kısımda yeni ön izleme açılabilir
 * `Ctrl + Shift + V` kısayolu ile ön izleme aynı tab grubunda açılır
 * `Ctrl + Shift + K` satır silinir
@@ -61,14 +50,49 @@ Her ikisini de eklediyseniz kod şöyle olmalı <pre>[
 * `Ctrl + Space` ile IntelliSense'in olduğu herhangi bir editörde o satır için önerilenler kısmını tekrar açabilirsiniz.
 * `Ctrl + 1/2/3` tab grupları arasında gezinti yapmayı sağlar
 * `Ctrl + Alt + sağ/sol ok` açık olan tabı sağ gruba taşır. sağda açık grup yoksa ekranı ikiye böler ve yeni grup açar
-* `Ctrl + P`
+* `Alt + LClick` seçilen sayıda satırdaki yeri aynı anda değiştirmek için kullanılır. (Multiline editing)
 * `Ctrl + P`
 * `Ctrl + P`
 * `Ctrl + P`
 * `Ctrl + P`
 
-## 
+## IDE AYARLARI
 
+* `Ctrl + N` ile bulunduğunuz klasörde hızlıca dosya açmak için şu adımlar yapılmalı
+  1. VS Code ayarlarında (`Ctrl + Shift + P`) şu dosyayı aratıp açın 
+  
+         Preferences: Open Keyboard Shortcuts (JSON)
+  2. Aşağıdaki kodu yapıştırıp dosyayı kaydedin
+        
+          [
+            { 
+              "key": "ctrl+n", 
+              "command": "explorer.  newFile" },
+           ]
+           
+* `Ctrl + Alt + N` ile workspace'de hızlıca klasör yaratmak için yukarıdaki adımı takip edin. 2. adımda süslü parantezden virgül koyup şu kodu ekleyin 
+
+      { 
+        "key": "ctrl+alt+n", 
+        "command": "explorer.newFolder" },
+  
+  Her ikisini de eklediyseniz kod şöyle olmalı 
+  
+      [
+          { 
+          "key": "ctrl+n", "command": "explorer.newFile" }, 
+          { 
+          "key": "ctrl+alt+n", "command": "explorer.    newFolder" },
+      ]
+
+*   `Ctrl + Tab` ve `Ctrl + Shift + Tab` ile sırayla sekme gezintisi yapmak için `settings.json` içine ekleyin 
+
+        {
+            "key": "ctrl+tab", 
+            "command": "workbench.action.nextEditorInGroup" },
+        {
+            "key": "ctrl+shift+tab",
+            "command": "workbench.action.previousEditorInGroup" },
 
 # [&#8593;](#icerik) HTML  <a id="notlar-html"></a> 
 * Dil alakasız notlar  

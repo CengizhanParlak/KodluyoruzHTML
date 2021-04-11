@@ -1,13 +1,59 @@
-h1 {color: red; }
-
-.h-blue{
-    color:blue;
-}
-.thick{
-       font-style: italic;
+* {
+    font-family: 'Kiwi Maru', sans-serif, serif;
+    font-weight: 600;
 }
 
-p {
-    font-family: 'Kiwi Maru', serif;
+h1 {
+    color: red;
+    text-align: center;
+ }
 
+ #products{
+     text-align: center;
+     list-style-position: inside;
+     font-size: 14px;
+ }
+
+ h2{
+     text-align: center;
+     color: #1e6f5c;
+ }
+ #homePageText{
+     text-align: center;
+ }
+
+ .homepage-h3{
+    color: #e6dd3b;
+    text-align: center;
+}
+
+.about-us-h3{
+    color: #e6dd3b;
+}
+
+p {font-family: 'Kiwi Maru', serif;}
+
+#topNav{
+    text-align: center;
+}
+#topNav> ul li{
+    margin: 0%;
+    padding: 2%;
+    list-style-type: none;
+    display: inline;
+}
+
+ol > li > img {
+   width: 250px;
+   height: 350px; 
+   margin-left: 20px;
+}
+img>p{
+    position: none;
+}
+
+ul>li{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
 }
