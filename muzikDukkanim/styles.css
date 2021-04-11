@@ -6,3 +6,8 @@ h1 {color: red; }
 .thick{
        font-style: italic;
 }
+
+p {
+    font-family: 'Kiwi Maru', serif;
+
+}
