@@ -125,7 +125,21 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * Dille alakalı notlar
   * Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özelliklerine sahip olur.
   * Google Font'larını siteye eklerken `@import` yerine `<link>` tagını kullanmalısınız. Performans olarak link tercih edilmekte ve önerilmekte.
-  * 
+  * ## SEÇİCİLER
+  *     div *{
+        color: black;
+        } 
+    diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
+  *     margin: 100px 150px 60px 50px;  /* top right bottom left* olarak gider. saat 12 yönünden sağa doğru */
+    diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
+  *     div *{
+        color: black;
+        } 
+    diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
+  *     div *{
+        color: black;
+        } 
+    diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
   * 
   * 
   * 
