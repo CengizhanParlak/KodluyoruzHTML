@@ -15,6 +15,7 @@ Yazan: Cengizhan Parlak [GitHub](github.com/cengizhanparlak " ")
 * [CSS](#notlar-css)
   * [Dil alakasız notlar](#Dil-alakasız-notlar)
   * [Dille alakalı notlar](#Dille-alakalı-notlar)
+* [Bootstrap](#notlar-bootstrap)
 * [JavaScript](#notlar-js)
   * [Dil alakasız notlar](#Dil-alakasız-notlar)
   * [Dille alakalı notlar](#Dille-alakalı-notlar)
@@ -140,8 +141,9 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
   *     div *{
         color: black;
         } 
-    diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
-    ## Bootstrap
+    diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.  
+    
+## Bootstrap
   * ![](images/2021-04-12-14-14-27.png)
   * ![](images/2021-04-12-14-17-59.png)
   * Bootstrap tasarımındaki kolonlar 12'den fazla olursa; görünüme sığmayacağı için (bloğu bozacağı için) alta geçerler.
