@@ -137,7 +137,7 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
         } 
     diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.  
     
-## [&#8593;](#icerik) Bootstrap <a id="patika-notlar"></a>
+## [&#8593;](#icerik) Bootstrap <a id="notlar-bootstrap"></a>
   * ![](images/2021-04-12-14-14-27.png)
   * ![](images/2021-04-12-14-17-59.png)
   * Bootstrap tasarımındaki kolonlar 12'den fazla olursa; görünüme sığmayacağı için (bloğu bozacağı için) alta geçerler.
