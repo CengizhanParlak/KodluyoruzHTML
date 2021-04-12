@@ -37,18 +37,21 @@ Eğitim süresince görülen derslerde alınan notlar yer almaktadır. IDE kulla
 Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Ayarları ve eklentiler; nasıl kullanılması gerektiği ve özellikleri hakkında notlar
 
 ## Yararlı VS Code kısayolları <a id="yararli-kisayollar"/></a> 
+* `Ctrl + Shift + E` dosya panelini açar
+* `Ctrl + Shift + G` source control panelini açar
+* `Ctrl + Shift + X` eklenti marketini açar
 * `Ctrl + Shift + P` VS Code ayarlarında arama yapmanızı sağlar
 * `Ctrl + P` workspace içindeki dosya ve klasörleri aramanızı sağlar
 * `Ctrl + Shift + N` yeni bir VS Code penceresi açar
 * `Ctrl + Shift + "` dahili terminali açar
 * `Ctrl + Shift + C` harici terminali (windows cmd) açar
-* `Ctrl + Shift + E` workspace dosyalarını seçebilirsiniz
 * `Ctrl + B`  sidebar'ı kapatıp açabilirsiniz
 * `Ctrl + K V` kısayolu ile sağ kısımda yeni ön izleme açılabilir
 * `Ctrl + Shift + V` kısayolu ile ön izleme aynı tab grubunda açılır
 * `Ctrl + Shift + K` satır silinir
 * `Alt + Shift + F` ile kod düzenlemesi yapılabilir.
 * `Ctrl + K + C` ile satır yorum satırı haline getirilir.
+* `Ctrl + K + U` ile satırdaki 1 yorum kaldırılır.
 * `Ctrl + Space` ile IntelliSense'in olduğu herhangi bir editörde o satır için önerilenler kısmını tekrar açabilirsiniz.
 * `Ctrl + 1/2/3` tab grupları arasında gezinti yapmayı sağlar
 * `Ctrl + Alt + sağ/sol ok` açık olan tabı sağ gruba taşır. sağda açık grup yoksa ekranı ikiye böler ve yeni grup açar
@@ -139,14 +142,17 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
         } 
     diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
     ## Bootstrap
-  * ![](2021-04-12-14-14-27.png)
-  * ![](2021-04-12-14-17-59.png)
+  * ![](images/2021-04-12-14-14-27.png)
+  * ![](images/2021-04-12-14-17-59.png)
   * Bootstrap tasarımındaki kolonlar 12'den fazla olursa; görünüme sığmayacağı için (bloğu bozacağı için) alta geçerler.
   * Bootstrap 5'ta: sol boşluk için `col-4 ms-auto` ve sağ boşluk için `col-4 me-auto` kullanılır. (`ms`: margin start, `me`: margin end)
-    ![](2021-04-12-14-23-19.png)
-  * ![](2021-04-12-14-32-37.png)
-  * ![](2021-04-12-14-34-32.png)
-  * 
+  * [Bootstrap Containers](https://getbootstrap.com/docs/4.4/layout/overview/#containers "")  
+  Container: içerikleri koyduğumuz bootstrap yapısı. Çerçeve olarak düşünülebilir. 
+
+    ![](images/2021-04-12-14-23-19.png)
+  * ![](images/2021-04-12-14-32-37.png)
+  * ![](images/2021-04-12-14-34-32.png)
+  * [Grid Examples (w3schools)](https://www.w3schools.com/bootstrap4/bootstrap_grid_examples.asp#:~:text=col%2Dsm%2D%20(small%20devices,to%20or%20greater%20than%20992px))
   * 
   * 
 
