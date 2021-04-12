@@ -53,10 +53,6 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * `Ctrl + 1/2/3` tab grupları arasında gezinti yapmayı sağlar
 * `Ctrl + Alt + sağ/sol ok` açık olan tabı sağ gruba taşır. sağda açık grup yoksa ekranı ikiye böler ve yeni grup açar
 * `Alt + LClick` seçilen sayıda satırdaki yeri aynı anda değiştirmek için kullanılır. (Multiline editing)
-* `Ctrl + P`
-* `Ctrl + P`
-* `Ctrl + P`
-* `Ctrl + P`
 
 ## IDE AYARLARI
 
@@ -127,7 +123,7 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * Dille alakalı notlar
   * Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özelliklerine sahip olur.
   * Google Font'larını siteye eklerken `@import` yerine `<link>` tagını kullanmalısınız. Performans olarak link tercih edilmekte ve önerilmekte.
-  * ## SEÇİCİLER
+    ## Seçiciler
   *     div *{
         color: black;
         } 
@@ -142,20 +138,20 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
         color: black;
         } 
     diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
-  * 
-  * 
-  * 
+    ## Bootstrap
+  * ![](2021-04-12-14-14-27.png)
+  * ![](2021-04-12-14-17-59.png)
+  * Bootstrap tasarımındaki kolonlar 12'den fazla olursa; görünüme sığmayacağı için (bloğu bozacağı için) alta geçerler.
+  * Bootstrap 5'ta: sol boşluk için `col-4 ms-auto` ve sağ boşluk için `col-4 me-auto` kullanılır. (`ms`: margin start, `me`: margin end)
+    ![](2021-04-12-14-23-19.png)
+  * ![](2021-04-12-14-32-37.png)
+  * ![](2021-04-12-14-34-32.png)
   * 
   * 
   * 
 
 ## [&#8593;](#icerik) JavaScript <a id="notlar-js"></a> 
 
-* 
-* 
-* 
-* 
-* 
 * 
 
 # [&#8593;](#icerik) PATİKA.DEV FRONT-END EĞİTİMİ İÇİN KAYNAKLAR <a id="patika-kaynaklar"></a>
@@ -168,26 +164,23 @@ Bu başlık altında kullanılabilecek kaynaklar yer almaktadır. Yararlı VS Co
 
     * Live Preview [link](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode "HTML Preview") (HTML dosyasında yaptığınız değişiklikleri VS Code üzerinde canlı olarak görebilirsiniz. `Ctrl + K V` kısayolu ile sağ kısımda ön izleme açabilirsiniz)
     * Paste Image [link](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image "Paste Image") (`Ctrl + Alt + V` ile ekran görüntülerini markdown dosyalarına doğrudan yapıştırabilirsiniz)
+      * Resimlerin "images" adındaki klasöre kaydedilmesi için eklenti ayarlarına gidin. "Path" kısmında:
+        >`${currentFileDir}` yerine `${currentFileDir}/images}`yazın
+  
+    * TabNine [link](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode&ssr=false "Autocomplete my TabNine")
 
 * ## Uygulamalar ve Web Siteleri <a id="kaynaklar-siteler"></a>
 
-  * remipsumlorem
-  * remipsumlorem
+  * 
 
 ## [&#8593;](#icerik) HTML <a id="kaynaklar-html"></a>
 
-* remipsumlorem
-* remipsumlorem
-* remipsumlorem
+* 
 
 ## [&#8593;](#icerik) CSS <a id="kaynaklar-css"></a>
 
-* remipsumlorem
-* remipsumlorem
-* remipsumlorem
+* 
 
 ## [&#8593;](#icerik) JavaScript <a id="kaynaklar-js"></a>
 
-* remipsumlorem
-* remipsumlorem
-* remipsumlorem
+* 
