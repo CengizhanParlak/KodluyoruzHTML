@@ -1,3 +1,4 @@
-![](images/odev.png)
-Y-MM-DD-HH-mm-ss
-![](images/i0pmg1.png)
+![](images/muzikDukkanimHome.png)
+![](images/hakkimizda.png)
+![](images/urunlerimiz.png)
+![](images/talimatler.png)

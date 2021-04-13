@@ -1,0 +1,41 @@
+.hakkımızdaContainer {
+    border-radius: 5px;
+    border: 10px solid #51c4d3;
+}
+
+p>a {
+    color: rgba(225, 222, 222, 0.905);
+}
+
+p>a:hover {
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.mainButton {
+    color: red;
+    font-size: 120%;
+}
+
+.mainButton:hover {
+    color: red;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.aboutUsHeader{
+    color: #bdb51ed5;
+}
+
+.card-img-top {
+    width: 100%!important;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.btn.btn-price{
+    background-color: gray;
+    padding: 0px;
+    margin: 0 0 5px 15px;
+}

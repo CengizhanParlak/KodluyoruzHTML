@@ -153,8 +153,26 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
   * ![](images/2021-04-12-14-32-37.png)
   * ![](images/2021-04-12-14-34-32.png)
   * [Grid Examples (w3schools)](https://www.w3schools.com/bootstrap4/bootstrap_grid_examples.asp#:~:text=col%2Dsm%2D%20(small%20devices,to%20or%20greater%20than%20992px))
-  * 
-  * 
+  * `col-sm-6 col-md-4 col-lg-3` class ismi
+    >small cihazlarda 12/6=2 grid medium cihazlarda 12/4=3 gridlik yer kaplar. 
+  * `col-sm-6` ve benzeri boyut isimlendirmeleri:
+    > belirtilen boyuttan sonraki tüm cihazlarda 6 gridlik yer kapla anlamına gelir
+  * ![](images/2021-04-12-18-05-21.png)
+  * `col-sm-6` ve benzeri isimlendirme başlamak kural gibi bir şey. Telefon boyutlarından dolayı sadece 1 içerik olmalı.
+  * row içindeki
+     > `class="col-6"`
+     `class="col-6"`
+     ile 2 column 6 hücre kaplayan 2 bölge oluşturulur
+    
+    > `class="col"`
+     `class="col"` da 6 gridlik 2 bölge oluşturur.
+
+     >`class="row"`, içinde yazdığımız col sayısı kadar bölünme yaşar
+  * <details>
+    <summary>`.flexbox` kullanım sebebi</summary>
+
+    ![](images/flexboxStackOF.png)
+  </details>
 
 ## [&#8593;](#icerik) JavaScript <a id="notlar-js"></a> 
 
@@ -172,6 +190,7 @@ Bu başlık altında kullanılabilecek kaynaklar yer almaktadır. Yararlı VS Co
     * Paste Image [link](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image "Paste Image") (`Ctrl + Alt + V` ile ekran görüntülerini markdown dosyalarına doğrudan yapıştırabilirsiniz)
       * Resimlerin "images" adındaki klasöre kaydedilmesi için eklenti ayarlarına gidin. "Path" kısmında:
         >`${currentFileDir}` yerine `${currentFileDir}/images}`yazın
+      * Resmin kaydedildiği adı değiştirmek için: resmin ismini yazın. Sonra bunu fareyle seçin ve `Ctrl + Alt + V` yapın. Resim fareyle seçtiğiniz isimle kaydedilecektir
   
     * TabNine [link](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode&ssr=false "Autocomplete my TabNine")
 
