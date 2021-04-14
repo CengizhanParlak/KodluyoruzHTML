@@ -7,8 +7,10 @@ Yazan: Cengizhan Parlak [GitHub](github.com/cengizhanparlak " ")
 
 ## 1) [Patika eğitim notları](#patika-notlar)
 
-* [Araçlar, IDE Ayarları, Eklentiler](#notlar-araclar)
-  * [Yararlı VS Code kısayolları](#yararli-kisayollar)
+* [Araçlar, IDE Ayarları, Eklentiler, Emmets](#notlar-araclar)
+  * [Yararlı VS Code kısayolları](#notlar-kisayollar)
+  * [IDE Ayarları](#notlar-ide-ayarlar)
+  * [Emmet Kısayolları](#notlar-emmet)
 * [HTML](#notlar-html)
 * [CSS](#notlar-css)
 * [Bootstrap](#notlar-bootstrap)
@@ -23,15 +25,15 @@ Yazan: Cengizhan Parlak [GitHub](github.com/cengizhanparlak " ")
 * [CSS](#kaynaklar-css)
 * [JavaScript](#kaynaklar-js)
 
-# [&#8593;](#icerik) PATİKA.DEV FRONT-END EĞİTİMİ NOTLARI <a id="patika-notlar"></a>
+# PATİKA.DEV FRONT-END EĞİTİMİ NOTLARI <a id="patika-notlar"></a> [&#8593;](#icerik) 
 
 Eğitim süresince görülen derslerde alınan notlar yer almaktadır. IDE kullanımı üzerine kısayollar da dahil olmak üzere "faydalı" olduğuduna inandığım çoğu bilgi burada almakta.
 
-# [&#8593;](#icerik) Araçlar, IDE Ayarları, Eklentiler <a id="notlar-araclar"></a> 
+# Araçlar, IDE Ayarları, Eklentiler <a id="notlar-araclar"></a> [&#8593;](#icerik) 
 
 Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Ayarları ve eklentiler; nasıl kullanılması gerektiği ve özellikleri hakkında notlar
 
-## Yararlı VS Code kısayolları <a id="yararli-kisayollar"/></a> 
+## Yararlı VS Code kısayolları <a id="notlar-kisayollar"/></a> 
 * `Ctrl + Shift + E` dosya panelini açar
 * `Ctrl + Shift + G` source control panelini açar
 * `Ctrl + Shift + X` eklenti marketini açar
@@ -52,7 +54,7 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * `Ctrl + Alt + sağ/sol ok` açık olan tabı sağ gruba taşır. sağda açık grup yoksa ekranı ikiye böler ve yeni grup açar
 * `Alt + LClick` seçilen sayıda satırdaki yeri aynı anda değiştirmek için kullanılır. (Multiline editing)
 
-## IDE AYARLARI
+## IDE AYARLARI <a id="notlar-ide-ayarlar"></a>
 
 * `Ctrl + N` ile bulunduğunuz klasörde hızlıca dosya açmak için şu adımlar yapılmalı
   1. VS Code ayarlarında (`Ctrl + Shift + P`) şu dosyayı aratıp açın 
@@ -90,14 +92,23 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
             "key": "ctrl+shift+tab",
             "command": "workbench.action.previousEditorInGroup" },
 
-# [&#8593;](#icerik) HTML  <a id="notlar-html"></a> 
+## Emmet <a id="notlar-emmet"></a>
+
+*  ^ işareti parantezli artı görevi görür
+
+       .row>.col-sm>(h2>lorem1)+(p>lorem6)+(a>.btn)
+       .row>.col-sm>h2>lorem1^p>lorem6^a>.btn
+    aynı anlama gelir
+* 
+
+
+# HTML  <a id="notlar-html"></a> [&#8593;](#icerik) 
 * Dil alakasız notlar  
   * "! + Enter" kısayolunu VS Code'da çalıştırmak için açılan `.html` uzantılı dosyanın Language Mode'u HTML olarak seçilmelidir. (Varsayılan olarak django-html seçilme ihtimalinden dolayı.)
   * `.html` uzantılı dosyalar için html modunu bir ve son kez değiştirmek için: 
     1. Aşağıdaki mavi bardan HTML kısmına tıklayın.
     2. Yukarıda açılan bölümde Configure File Association for '.html' seçeneğine tıklayın
     3. Arama kısmına "html" yazarak html seçeneğini varsayılan dosya konfigürasyonu olarak belirleyin.
-
 
 
 * Dille alakalı notlar 
@@ -114,7 +125,7 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
   *  `class` attribute'u HTML sayfası boyunca aynı özellikleri taşıması istenen (aynı sınıfta olması gereken) öğelere verilir. Birden çok öğeye verilebilir. Her birinde değiştirmek istediğimiz bir özellik olduğunda hepsini kolayca tek bir class ismiyle değiştirebiliriz.
   * Googl Font'larını siteye koyarken html'e eklediğimiz `<link>` tag'ı `head` içinde ilk satırda yer almalı.
 
-## [&#8593;](#icerik) CSS <a id="notlar-css"></a> 
+## CSS <a id="notlar-css"></a> [&#8593;](#icerik)
 
 * Dil alakasız notlar
 
@@ -137,7 +148,7 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
         } 
     diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.  
     
-## [&#8593;](#icerik) Bootstrap <a id="notlar-bootstrap"></a>
+## Bootstrap <a id="notlar-bootstrap"></a> [&#8593;](#icerik)
   * ![](images/2021-04-12-14-14-27.png)
   * ![](images/2021-04-12-14-17-59.png)
   * Bootstrap tasarımındaki kolonlar 12'den fazla olursa; görünüme sığmayacağı için (bloğu bozacağı için) alta geçerler.
@@ -169,16 +180,18 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 
     ![](images/flexboxStackOF.png)
   </details>
+  
+  * Hangi öğelerin hangi ekranda gözükeceği: `display` ile doc'ta bulunabilir.
 
-## [&#8593;](#icerik) JavaScript <a id="notlar-js"></a> 
+## JavaScript <a id="notlar-js"></a> [&#8593;](#icerik) 
 
 * 
 
-# [&#8593;](#icerik) PATİKA.DEV FRONT-END EĞİTİMİ İÇİN KAYNAKLAR <a id="patika-kaynaklar"></a>
+# PATİKA.DEV FRONT-END EĞİTİMİ İÇİN KAYNAKLAR <a id="patika-kaynaklar"></a> [&#8593;](#icerik) 
 
 Bu başlık altında kullanılabilecek kaynaklar yer almaktadır. Yararlı VS Code eklentileri, site tasarlamasında kullanılabilecek yardımcı araçlar, web siteleri; yapılması gereken IDE ayarları da bu başlıkta yazılmıştır.
 
-# [&#8593;](#icerik)Yardımcı Araçlar, IDE Ayarları, Eklentiler <a id="kaynaklar-araclar"></a>
+# Yardımcı Araçlar, IDE Ayarları, Eklentiler <a id="kaynaklar-araclar"></a> [&#8593;](#icerik)
 
   * ## VS Code Eklentileri <a id="kaynaklar-eklentiler"></a>
 
@@ -194,14 +207,14 @@ Bu başlık altında kullanılabilecek kaynaklar yer almaktadır. Yararlı VS Co
 
   * 
 
-## [&#8593;](#icerik) HTML <a id="kaynaklar-html"></a>
+## HTML <a id="kaynaklar-html"></a>  [&#8593;](#icerik)
 
 * 
 
-## [&#8593;](#icerik) CSS <a id="kaynaklar-css"></a>
+## CSS <a id="kaynaklar-css"></a> [&#8593;](#icerik) 
 
 * 
 
-## [&#8593;](#icerik) JavaScript <a id="kaynaklar-js"></a>
+## JavaScript <a id="kaynaklar-js"></a> [&#8593;](#icerik) 
 
 * 
