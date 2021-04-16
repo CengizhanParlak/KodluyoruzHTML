@@ -1,6 +1,6 @@
 # PATİKA.DEV FRONT-END EĞİTİMİ
 Başlangıç Tarihi 09/04/2021 15:08   
-Yazan: Cengizhan Parlak [GitHub](github.com/cengizhanparlak " ")
+Yazan: Cengizhan Parlak [GitHub](https://github.com/cengizhanparlak)
 <hr>
 
 ## *İçerik* <a id=icerik></a>
