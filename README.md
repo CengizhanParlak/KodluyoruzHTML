@@ -23,6 +23,7 @@ Yazan: Cengizhan Parlak [GitHub](github.com/cengizhanparlak " ")
   * [Uygulamalar ve Web Siteleri](#kaynaklar-siteler)
 * [HTML](#kaynaklar-html)
 * [CSS](#kaynaklar-css)
+* [Bootstrap](#kaynaklar-bootstrap)
 * [JavaScript](#kaynaklar-js)
 
 # PATİKA.DEV FRONT-END EĞİTİMİ NOTLARI <a id="patika-notlar"></a> [&#8593;](#icerik) 
@@ -182,6 +183,8 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
   </details>
   
   * Hangi öğelerin hangi ekranda gözükeceği: `display` ile doc'ta bulunabilir.
+  * `offset-sm-2` ve benzeri kullanımlarda her zaman baştan boşluk verilir.
+    * aynı row içerisinde farklı elementlere `offset` verince hepsinin offset boşluğu soldan başlar.
 
 ## JavaScript <a id="notlar-js"></a> [&#8593;](#icerik) 
 
@@ -214,6 +217,11 @@ Bu başlık altında kullanılabilecek kaynaklar yer almaktadır. Yararlı VS Co
 ## CSS <a id="kaynaklar-css"></a> [&#8593;](#icerik) 
 
 * 
+
+## Bootstrap <a id="kaynaklar-bootstrap"></a> [&#8593;](#icerik) 
+
+* [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [Bootstrap Components](https://getbootstrap.com/docs/5.0/components/accordion/)
 
 ## JavaScript <a id="kaynaklar-js"></a> [&#8593;](#icerik) 
 
