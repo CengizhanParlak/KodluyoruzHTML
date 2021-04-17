@@ -13,13 +13,14 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(/8-linkedInClone/assets/search-solid.svg);
   background-repeat: no-repeat;
-  background-size: 7%;
+  background-size: 8%;
 }
 
 .body {
   background-color: #f3f2ef;
+  text-align: left;
 }
 
 .menutext {
@@ -65,9 +66,10 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(/8-linkedInClone/assets/edit-regular.svg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 4%;
+  padding-bottom: 15px;
 }
 
 div.card {

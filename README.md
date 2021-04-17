@@ -54,6 +54,11 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * `Ctrl + 1/2/3` tab grupları arasında gezinti yapmayı sağlar
 * `Ctrl + Alt + sağ/sol ok` açık olan tabı sağ gruba taşır. sağda açık grup yoksa ekranı ikiye böler ve yeni grup açar
 * `Alt + LClick` seçilen sayıda satırdaki yeri aynı anda değiştirmek için kullanılır. (Multiline editing)
+* <details>
+    <summary>Closing tag'e gitmek için</summary>
+
+    ![](images/goToMatchingPair.png)
+  </details>
 
 ## IDE AYARLARI <a id="notlar-ide-ayarlar"></a>
 

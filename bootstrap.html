@@ -14,8 +14,141 @@
 
 <body>
 
-  
-  <!--Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi/Gizlenmesi #8
+
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+        1.İçerik
+      </div>
+      <div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+        2.İçerik
+      </div>
+      <div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+        3.İçerik
+      </div>
+      <div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+        4.İçerik
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- SORULAR -->
+
+  <!--1 Birden çok ekranda gözükmesini istediğimiz yapılar için  a-satırdaki gibi bir yapı mı kullanmalıyız daha iyi bir kod yazımı var mı-->
+  <!--2
+   d-none class'ını her zaman koymamız gerekli mi? burada neden kullanılmış?
+    ve eğer gerekliyse mantık: önce elementi hepsinde gizleyelim, sonra yalnızca gözükmesi gereken yerlerde açalım gibi bir şey mi?
+   -->
+<!-- 
+
+  <h1 class="d-block d-sm-none bg-warning p-5 text-white mx-auto">XS - Birinci Element - Mobil Görünüm</h1>
+  <h1 class="d-none d-sm-block d-md-none bg-primary p-5 text-white mx-auto">SM - İkinci Element - Tablet Görünüm</h1>
+  a-satır <h1 class="d-none d-block d-sm-block d-md-block d-lg-none bg-success p-5 text-white mx-auto">XS-SM-MD - Üçünde
+    de
+    gözüken Element - Laptop Görünüm</h1>
+  <h1 class="d-none d-lg-block d-xl-none bg-danger p-5 text-white mx-auto">LG - Dördüncü Element - Normal Ekran Görünüm
+  </h1>
+  <h1 class="d-none d-xl-block bg-info p-5 text-white mx-auto">XL - Beşinci Element - Büyük Ekran Görünüm</h1>
+ -->
+
+
+
+  <!-- DERS ORNEKLERI ve ALISTIRMALAR (en son olan en üstte) -->
+
+
+  <!-- TÜM ALANI KAPLAYACAK YAPILAR HAKKINDA: D-FLEX, ROW -->
+  <!-- <div class="container bg-primary">
+    <div class="row">
+      <div class="col-sm border-right ">
+        <p class="text-light">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="col-sm border-right">
+        <p class="text-light">Excepturi itaque architecto similique adipisci!</p>
+      </div>
+      <div class="col-sm border-right">
+        <p class="text-light">Temporibus, eius. Laborum, vero libero!</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-light">Nesciunt illum aut provident reprehenderit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex bg-info my-2">
+  <div class="container bg-primary my-2">
+    <div class="row">
+      <div class="col-sm border-right ">
+        <p class="text-light">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="col-sm border-right">
+        <p class="text-light">Excepturi itaque architecto similique adipisci!</p>
+      </div>
+      <div class="col-sm border-right">
+        <p class="text-light">Temporibus, eius. Laborum, vero libero!</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-light">Nesciunt illum aut provident reprehenderit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row bg-warning my-2">
+  <div class="container bg-primary my-2">
+    <div class="row">
+      <div class="col-sm border-right ">
+        <p class="text-light">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="col-sm border-right">
+        <p class="text-light">Excepturi itaque architecto similique adipisci!</p>
+      </div>
+      <div class="col-sm border-right">
+        <p class="text-light">Temporibus, eius. Laborum, vero libero!</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-light">Nesciunt illum aut provident reprehenderit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-success my-2">
+  <div class="container bg-primary my-2">
+    <div class="row">
+      <div class="col-sm border-right ">
+        <p class="text-light">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="col-sm border-right">
+        <p class="text-light">Excepturi itaque architecto similique adipisci!</p>
+      </div>
+      <div class="col-sm border-right">
+        <p class="text-light">Temporibus, eius. Laborum, vero libero!</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-light">Nesciunt illum aut provident reprehenderit.</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+  <!--RESPONSIVE OLARAK GİZLEME/GÖSTERME
   <h1 class="d-block d-sm-none bg-warning p-5 text-white mx-auto">XS - Birinci Element - Mobil Görünüm</h1>
   <h1 class="d-none d-sm-block d-md-none bg-primary p-5 text-white mx-auto">SM - İkinci Element - Tablet Görünüm</h1>
   <h1 class="d-none d-md-block d-lg-none bg-success p-5 text-white mx-auto">MD - Üçüncü Element - Laptop Görünüm</h1>
@@ -37,21 +170,31 @@
   </div>
 -->
 
-  <!--1 Birden çok ekranda gözükmesini istediğimiz yapılar için  a-satırdaki gibi bir yapı mı kullanmalıyız daha iyi bir kod yazımı var mı-->
-  <!--2
-   d-none class'ını her zaman koymamız gerekli mi? burada neden kullanılmış?
-    ve eğer gerekliyse mantık: önce elementi hepsinde gizleyelim, sonra yalnızca gözükmesi gereken yerlerde açalım gibi bir şey mi?
-   -->
 
-  <!-- 
-    <h1 class="d-block d-sm-none bg-warning p-5 text-white mx-auto">XS - Birinci Element - Mobil Görünüm</h1>
-  <h1 class="d-none d-sm-block d-md-none bg-primary p-5 text-white mx-auto">SM - İkinci Element - Tablet Görünüm</h1>
-  a-satır <h1 class="d-none d-block d-sm-block d-md-block d-lg-none bg-success p-5 text-white mx-auto">XS-SM-MD - Üçünde de
-    gözüken Element - Laptop Görünüm</h1>
-  <h1 class="d-none d-lg-block d-xl-none bg-danger p-5 text-white mx-auto">LG - Dördüncü Element - Normal Ekran Görünüm
-  </h1>
-  <h1 class="d-none d-xl-block bg-info p-5 text-white mx-auto">XL - Beşinci Element - Büyük Ekran Görünüm</h1> 
--->
+  <!-- <div class="row">
+    <div class="col-sm-10 offset-sm-1 shadow">
+      <div class="row bg-white p-3 text-center">
+        <div class="col-sm border-right">
+          <h2 style="color:#9b51e0; font-size: 3rem; font-weight: 800;">%80</h2>
+          <p>Bootcamp'lerden ortalama mezuniyet oranı</p>
+        </div>
+        <div class="col-sm border-right">
+          <h2 style="color:#9b51e0; font-size: 3rem; font-weight: 800;">%45</h2>
+          <p>Kadın öğrenci oranımız - Eşitliği destekliyoruz!</p>
+        </div>
+        <div class="col-sm">
+          <h2 style="color:#9b51e0; font-size: 3rem; font-weight: 800;">%60</h2>
+          <p>Mezun olduktan sonra 3 ay içinde işe yerleşme oranı</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- <div class="col-sm-8 offset-sm-2">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, temporibus tempora. Quibusdam blanditiis ab natus possimus a incidunt dolore pariatur. Aut officia amet esse voluptatem?</p>
+    </div> -->
+
 
   <!-- <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
   <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
