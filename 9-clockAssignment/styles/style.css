@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(129, 125, 125);
+    background-size: cover;
+    padding-top: 70px;
+}
+
+.colorChangingP {
+    color: rgb(240, 26, 26);
+}
+
+div>* {
+}
+
+.demo-wrap {
+    position: relative;
+}
+
+.demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: inherit;
+}
+
+.demo-content {
+    position: relative;
+}

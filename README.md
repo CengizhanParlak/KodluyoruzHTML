@@ -47,6 +47,7 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * `Ctrl + K V` kısayolu ile sağ kısımda yeni ön izleme açılabilir
 * `Ctrl + Shift + V` kısayolu ile ön izleme aynı tab grubunda açılır
 * `Ctrl + Shift + K` satır silinir
+* `Ctrl + D` Seçilen text'in sonraki bulunduğu yere de cursor atar
 * `Alt + Shift + F` ile kod düzenlemesi yapılabilir.
 * `Ctrl + K + C` ile satır yorum satırı haline getirilir.
 * `Ctrl + K + U` ile satırdaki 1 yorum kaldırılır.
