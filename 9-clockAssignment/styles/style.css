@@ -4,11 +4,14 @@ body {
     padding-top: 70px;
 }
 
-.colorChangingP {
-    color: rgb(240, 26, 26);
+p, .lead{
+    font-weight: 700;
+    font-size:  20px;
 }
 
-div>* {
+
+.colorChangingP {
+    color: rgb(240, 26, 26);
 }
 
 .demo-wrap {
@@ -16,7 +19,7 @@ div>* {
 }
 
 .demo-bg {
-    opacity: 0.6;
+    opacity: 0.2;
     position: absolute;
     left: 0;
     top: 0;

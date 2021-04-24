@@ -1,5 +1,4 @@
 var isim;
-var date = new Date();
 var day, time, hours, minutes, seconds;
 var am_or_pm;
 
@@ -42,6 +41,7 @@ function checkAndShowTime() {
 
     document.getElementById("clockNow").innerText = time;
     document.getElementById("clockNow").textContent = time;
+    console.log("zaman" + time);
     setTimeout(checkAndShowTime, 1000);
 
 }
@@ -83,6 +83,7 @@ function showTimeLeftToWeekend() {
     day = date.getDay();
     if (day == 0 || day == 6) {
         let dayToday = (day == 0) ? "Sunday" : "Saturday";
+        document.getElementById("p1").innerText = "";
         document.getElementById("timeLeftToWeekend").innerText = `You're already on the weekend. Enjoy your ${dayToday} and have some rest. You've deserved it.`
 
         let remainingDay = day % 5; //pazar günündeysek 0 gün kalmıştır. sadece saat dakika hesaplarız. cumartesi günündeysek 
@@ -122,7 +123,7 @@ function showTimeLeftToWeekend() {
     setTimeout(showTimeLeftToWeekend, 1000);
 }
 
-// askForName();
+askForName();
 checkAndShowTime();
 checkAndShowDay();
 showTimeLeftToWeekend();
