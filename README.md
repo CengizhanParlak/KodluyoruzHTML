@@ -38,7 +38,8 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * `Ctrl + Shift + E` dosya panelini açar
 * `Ctrl + Shift + G` source control panelini açar
 * `Ctrl + Shift + X` eklenti marketini açar
-* `Ctrl + Shift + P` VS Code ayarlarında arama yapmanızı sağlar
+* `Ctrl + P` Workspace içinde dosya araması
+* `Ctrl + Shift + P` VS Code ayarlarında arama (alternatif olarak `>` işaretiyle çalışır)
 * `Ctrl + P` workspace içindeki dosya ve klasörleri aramanızı sağlar
 * `Ctrl + Shift + N` yeni bir VS Code penceresi açar
 * `Ctrl + Shift + "` dahili terminali açar
