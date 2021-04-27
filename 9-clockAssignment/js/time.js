@@ -41,7 +41,6 @@ function checkAndShowTime() {
 
     document.getElementById("clockNow").innerText = time;
     document.getElementById("clockNow").textContent = time;
-    console.log("zaman" + time);
     setTimeout(checkAndShowTime, 1000);
 
 }
@@ -105,20 +104,20 @@ function showTimeLeftToWeekend() {
     else {
         document.getElementById("timeLeftToWeekday").innerText = "You're already in a weekday. Try to do your best and enjoy the journey rather not just focusing on the outcome. Everything's gonna be alright.";
 
-        let multiplier = 6 - day;
+        let daysLeft = (6 - day - 1); 
         hours = date.getHours();
         minutes = date.getMinutes();
         seconds = date.getSeconds();
 
-        let remainingHours = (23 - hours) * multiplier;
+        let remainingHours = (23 - hours);
         let remainingMinutes = 59 - minutes;
         let remainingSeconds = 59 - seconds;
         remainingHours = (remainingHours < 10) ? "0" + remainingHours : remainingHours;
         remainingMinutes = (remainingMinutes < 10) ? "0" + remainingMinutes : remainingMinutes;
         remainingSeconds = (remainingSeconds < 10) ? "0" + remainingSeconds : remainingSeconds;
-        time = `${remainingHours}:${remainingMinutes}:${remainingSeconds}`
-
-        document.getElementById("timeLeftToWeekend").innerText += time;
+        let timeLeft = `${remainingHours}:${remainingMinutes}:${remainingSeconds}`
+        let left = `${daysLeft} days and ${timeLeft} left`;
+        document.getElementById("timeLeftToWeekend").innerText = left;
     }
     setTimeout(showTimeLeftToWeekend, 1000);
 }

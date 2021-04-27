@@ -15,12 +15,8 @@
 
 <body style="background-color: gray">
 
-  <form onsubmit="handleSubmit(e)" method="POST">
-    <input type="text" name="username" placeholder="Kullanıcı adınızı giriniz" onchange="handleChange(event)" />
-    <input type="password" name="password" placeholder="Şifrenizi giriniz." onchange="handleChange(event)" />
-    <button type="submit">Giriş</button>
-  </form>
-
+  <input type="text" placeholder="Doğum Tarihiniz" id="dogumTarihi" />
+  <button onclick="valid()">Gönder</button>
   <!-- 
     <form method="GET">
         <input type="text" name="yas" placeholder="Yaşınızı giriniz." />

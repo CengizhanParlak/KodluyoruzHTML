@@ -1,16 +1,86 @@
 
 
-const sayilar = ["abc"];
+fetch("https://jsonplaceholder.typicode.com/users")
+    .then((response) => response.json()) //parse json data
+    .then(function (users) {
+        users.forEach((users) => {
+            console.log(users); //Başlıkları console' a yazdırma
+        });
+    });
 
-// Dizi içindeki sayıları toplayarak indirgeyecek bir fonksiyon yazalım:
-function indirgeyici (akumulator, sayi) {
-    return akumulator + sayi;
-}
+fetch("https://jsonplaceholder.typicode.com/comments")
+    .then((response) => response.json())
+    .then((json) => json.forEach((item) => console.log(item.email)))
+    .catch((err) => console.log(err))
+    
+// //// GET İsteği
+// fetch("https://jsonplaceholder.typicode.com/todos")
+//     .then((response) => response.json()) //parse json data
+//     .then(function (todos) {
+//         todos.forEach((todo) => {
+//             console.log(todo.title); //Başlıkları console' a yazdırma
+//         });
+//     });
 
-// Bu fonksiyonu ve toplamaya 0'dan başlayacağımızı belirten 0 sayısını metodumuza parametre olarak girelim ve sonucu bir değişkende tutalım:
-const sonuc1 = sayilar.reduce(indirgeyici,"abc");
+// let payload = {
+//     title: "Blog Title",
+//     body: "lorem ipsum",
+//     userId: 1
+// }
+// fetch('https://jsonplaceholder.typicode.com/posts', {
+//     method: "POST",
+//     body: JSON.stringify(payload),
+//     headers: { "Content-type": "application/json; charset=UTF-8" }
+// })
+//     .then(response => response.json())
+//     .then(json => console.log(json))
+//     .catch(err => console.log(err));
 
-console.log(sonuc1);
+
+// function valid(){
+//     try {
+//         if (document.querySelector("#dogumTarihi").value == "") {
+//             throw "Doğum tarihini boş geçemezsiniz";
+//         };
+//     }catch(err) {
+//         alert(err);
+//     }
+// }
+
+// let person = {
+//     name: "Jack",
+//     age: 20,
+//   };
+//   let key = prompt("Kişinin hangi özelliğini öğrenmek isterdiniz?", "name");
+
+//   // değişken ile erişim
+//   alert(person[key]);      // Jack (prompt’a “name” yazarsak erişeceğimiz değer)
+
+
+// let person= {};                     // set (oluştur)
+// person["likes sea"] = "yes";         // get (getir)
+// console.log(person["likes sea"]);   // true (doğru)
+// delete person["likes sea"];         // delete (sil)
+
+// let countriesTalkFrench = new Object();     
+// countriesTalkFrench.continent = "africa";     
+// countriesTalkFrench.language = "french"; 
+// countriesTalkFrench.race = "african";
+// console.log(countriesTalkFrench);
+// delete countriesTalkFrench.language;
+// console.log(countriesTalkFrench);
+
+// const sayilar = ["abc"];
+
+// // Dizi içindeki sayıları toplayarak indirgeyecek bir fonksiyon yazalım:
+// function indirgeyici (akumulator, sayi) {
+//     return akumulator + sayi;
+// }
+
+// // Bu fonksiyonu ve toplamaya 0'dan başlayacağımızı belirten 0 sayısını metodumuza parametre olarak girelim ve sonucu bir değişkende tutalım:
+// const sonuc1 = sayilar.reduce(indirgeyici,"abc");
+
+// console.log(sonuc1);
 
 // const array1 = [1, 30, 4, 21, 100000];
 // const strDizi = ["abc", "def", "beg"];
