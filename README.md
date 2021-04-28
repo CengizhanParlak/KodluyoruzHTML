@@ -45,6 +45,7 @@ Kod yazımında kullanılan ek araçlar, kullanımları üzerine notlar. IDE Aya
 * `Ctrl + Shift + "` dahili terminali açar
 * `Ctrl + Shift + C` harici terminali (windows cmd) açar
 * `Ctrl + B`  sidebar'ı kapatıp açabilirsiniz
+* `Ctrl + J`  terminal panelini açma/kapama
 * `Ctrl + K V` kısayolu ile sağ kısımda yeni ön izleme açılabilir
 * `Ctrl + Shift + V` kısayolu ile ön izleme aynı tab grubunda açılır
 * `Ctrl + Shift + K` satır silinir
